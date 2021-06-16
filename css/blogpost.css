@@ -1,0 +1,42 @@
+.blog{
+    color: black;
+}
+
+.post{
+    margin-top: -40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogBody p{
+    margin-top: 15px;
+    color: black;
+}
+
+.blogTitle{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.blogsubTitle{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: 450;
+}
+
+.subtopicBody{
+    margin-left: 60px;
+}
+
+.blogImages{
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-items: center;
+}
+
