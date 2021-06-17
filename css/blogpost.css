@@ -12,6 +12,7 @@
 .blogBody p{
     margin-top: 15px;
     color: black;
+    font-weight: 300;
 }
 
 .blogTitle{
@@ -32,11 +33,25 @@
 }
 
 .blogImages{
-    width: 60%;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
     justify-items: center;
+}
+
+ul{
+    margin-top: 2%;
+    font-weight: 300;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mainList li{
+    list-style-type: circle;
+    margin-top: 1%;
+}
+
+.subList li{
+    list-style-type: square;
+    margin-left: 10px;
 }
 
