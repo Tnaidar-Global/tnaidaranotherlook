@@ -165,6 +165,7 @@ img{
 .timeRead{
     color: black;
     font-size: small;
+    margin-left: none;
 }
 
 /* Media Queries */
