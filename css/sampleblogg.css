@@ -162,6 +162,11 @@ img{
     font-size: small;
 }
 
+.timeRead{
+    color: black;
+    font-size: small;
+}
+
 /* Media Queries */
 @media screen and (min-width: 540px){
     .navbar-nav a{
