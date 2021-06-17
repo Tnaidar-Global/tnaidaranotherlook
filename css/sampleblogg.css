@@ -157,6 +157,11 @@ img{
     background: var(--exDark);
 }
 
+.blogTags{
+    color: black;
+    font-size: small;
+}
+
 /* Media Queries */
 @media screen and (min-width: 540px){
     .navbar-nav a{
