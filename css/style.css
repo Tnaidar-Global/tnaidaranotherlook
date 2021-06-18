@@ -1220,7 +1220,7 @@ body {
     .btn-curve.btn-lit:hover span {
       color: #60D1E0; }
     .btn-curve.btn-lit:after {
-      background: #fff; }
+      background: #08526F; }
   .btn-curve.btn-blc {
     background: #1e1e1e; }
     .btn-curve.btn-blc:after {
@@ -1235,7 +1235,7 @@ body {
     .btn-curve.btn-color:after {
       background: #fff; }
     .btn-curve.btn-color span {
-      color: #0c0f16; }
+      color: #08526F; }
     .btn-curve.btn-color:hover span {
       color: #60D1E0; }
   .btn-curve.btn-lg {
