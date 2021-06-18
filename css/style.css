@@ -1908,6 +1908,9 @@ body {
       border: 1px solid rgba(255, 255, 255, 0.05);
       color: #fff;
       font-size: 13px; }
+    .slider .social-icon a:hover {
+      background-color: #08526F;
+    }
 
 .cta__slider-wrapper {
   position: relative;
