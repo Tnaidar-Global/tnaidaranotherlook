@@ -1,1 +1,18 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-1,.cls-2{fill:none;stroke:#111c47;stroke-miterlimit:10;stroke-width:2px;}.cls-1{stroke-linecap:round;}</style></defs><title>Icon Line</title><g id="Line"><rect class="cls-1" x="11.19" y="11.56" width="41.63" height="27.8" rx="2.28"/><rect class="cls-2" x="15.76" y="15.58" width="32.48" height="19.77" rx="1.2"/><path class="cls-2" d="M23.16,39.37H40.84a0,0,0,0,1,0,0V42.1A1.88,1.88,0,0,1,39,44H25a1.87,1.87,0,0,1-1.87-1.87V39.37A0,0,0,0,1,23.16,39.37Z"/><rect class="cls-1" x="26.91" y="43.97" width="10.18" height="4.61"/><rect class="cls-2" x="20.96" y="48.58" width="22.07" height="3.86"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#60D1E0;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#60D1E0;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="Line">
+	<path class="st0" d="M13.5,11.6h37.1c1.3,0,2.3,1,2.3,2.3v23.2c0,1.3-1,2.3-2.3,2.3H13.5c-1.3,0-2.3-1-2.3-2.3V13.8
+		C11.2,12.6,12.2,11.6,13.5,11.6z"/>
+	<path class="st1" d="M17,15.6H47c0.7,0,1.2,0.5,1.2,1.2v17.4c0,0.7-0.5,1.2-1.2,1.2H17c-0.7,0-1.2-0.5-1.2-1.2V16.8
+		C15.8,16.1,16.3,15.6,17,15.6z"/>
+	<path class="st1" d="M23.2,39.4h17.7l0,0v2.7c0,1-0.8,1.9-1.8,1.9H25c-1,0-1.9-0.8-1.9-1.9L23.2,39.4L23.2,39.4z"/>
+	<rect x="26.9" y="44" class="st0" width="10.2" height="4.6"/>
+	<rect x="21" y="48.6" class="st1" width="22.1" height="3.9"/>
+</g>
+</svg>

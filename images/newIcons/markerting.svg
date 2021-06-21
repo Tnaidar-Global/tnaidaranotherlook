@@ -1,1 +1,21 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-1,.cls-2,.cls-3{fill:none;stroke:#111c47;stroke-width:2px;}.cls-1,.cls-2{stroke-miterlimit:10;}.cls-2,.cls-3{stroke-linecap:round;}.cls-3{stroke-linejoin:round;}</style></defs><title>Icon Line</title><g id="Line"><path class="cls-1" d="M10.55,17.53H49.61a0,0,0,0,1,0,0V38.26a3.7,3.7,0,0,1-3.7,3.7H14.25a3.7,3.7,0,0,1-3.7-3.7V17.53A0,0,0,0,1,10.55,17.53Z"/><rect class="cls-2" x="7.9" y="12.87" width="44.36" height="4.66" rx="2.33"/><polygon class="cls-3" points="24.74 54.34 29.61 49.46 30.55 49.46 35.42 54.34 40.93 54.34 33.75 47.16 33.75 41.96 26.95 41.96 26.95 46.62 19.23 54.34 24.74 54.34"/><line class="cls-1" x1="15.52" y1="32.53" x2="30.08" y2="32.53"/><line class="cls-1" x1="33.46" y1="32.53" x2="44.61" y2="32.53"/><line class="cls-1" x1="15.52" y1="37.09" x2="44.61" y2="37.09"/><rect class="cls-2" x="17.5" y="23.37" width="8.04" height="9.16"/><rect class="cls-2" x="34.53" y="27.95" width="8.04" height="4.58"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#60D1E0;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#60D1E0;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#60D1E0;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<g id="Line">
+	<path class="st0" d="M10.6,17.5h39.1l0,0v20.7c0,2-1.7,3.7-3.7,3.7l0,0H14.2c-2,0-3.7-1.7-3.7-3.7l0,0V17.5L10.6,17.5z"/>
+	<path class="st1" d="M10.2,12.9h39.7c1.3,0,2.3,1,2.3,2.3v0c0,1.3-1,2.3-2.3,2.3H10.2c-1.3,0-2.3-1-2.3-2.3v0
+		C7.9,13.9,8.9,12.9,10.2,12.9z"/>
+	<polygon class="st2" points="24.7,54.3 29.6,49.5 30.5,49.5 35.4,54.3 40.9,54.3 33.8,47.2 33.8,42 27,42 27,46.6 19.2,54.3 	"/>
+	<line class="st0" x1="15.5" y1="32.5" x2="30.1" y2="32.5"/>
+	<line class="st0" x1="33.5" y1="32.5" x2="44.6" y2="32.5"/>
+	<line class="st0" x1="15.5" y1="37.1" x2="44.6" y2="37.1"/>
+	<rect x="17.5" y="23.4" class="st1" width="8" height="9.2"/>
+	<rect x="34.5" y="28" class="st1" width="8" height="4.6"/>
+</g>
+</svg>
