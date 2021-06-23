@@ -1,28 +1,8 @@
-.mainWorkCardSlider{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: sans-serif;
+#wrapper{
+   width: 1170px;
+   margin: 0 auto;
 }
 
-.workCardSlider{
-   position: relative;
+.work-image img{
    width: 100%;
-   display: flex;
-}
-
-.workCardSlider section{
-   min-width: 100%;
-   height: auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 50vh;
-   background: #02050B;
-}
-
-.workCardSlider section .work-content{
-   max-width: 800px;
-   padding: 40px;
-   text-align: center;
 }
