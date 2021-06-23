@@ -35,6 +35,10 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <link rel="stylesheet" href="css/individualWork.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -194,28 +198,6 @@
 
 
 
-
-        <!-- ==================== Start projdtal ==================== -->
-
-        <section class="projdtal">
-            <div class="justified-gallery">
-                <a href="images/work/Dafedil Business Acadamy/dafedil/1.png">
-                    <img alt="" src="images/work/Dafedil Business Acadamy/dafedil/1.png" />
-                </a>
-                <a href="images/work/Dafedil Business Acadamy/dafedil/2.png">
-                    <img alt="" src="images/work/Dafedil Business Acadamy/dafedil/2.png" />
-                </a>
-
-                <a href="images/work/Dafedil Business Acadamy/dafedil/3.png">
-                    <img alt="" src="images/work/Dafedil Business Acadamy/dafedil/3.png" />
-                </a>
-            </div>
-        </section>
-
-        <!-- ==================== End projdtal ==================== -->
-
-
-
         <!-- ==================== Start Intro ==================== -->
 
         <section class="intro-section section-padding">
@@ -237,29 +219,33 @@
 
         <!-- ==================== End Intro ==================== -->
 
-
-
-
-        <!-- ==================== Start Video-wrapper ==================== -->
+        <!------------------------- Card Slider ------------------------>
 
         <section>
-            <div class="container-fluid">
-                <div class="video-wrapper section-padding bg-img parallaxie valign"
-                    data-background="img/portfolio/project1/bg.jpg" data-overlay-dark="4">
-                    <div class="full-width text-center">
-                        <a class="vid" href="https://vimeo.com/127203262">
-                            <div class="vid-butn">
-                                <span class="icon">
-                                    <i class="fas fa-play"></i>
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+            <div class="thing" id="wrapper">
+                <div class="work-image"><img src="images/work/Dafedil Business Acadamy/dafedil/1.png" alt="slider-image"></div>
+                <div class="work-image"><img src="images/work/Dafedil Business Acadamy/dafedil/2.png" alt="slider-image"></div>
+                <div class="work-image"><img src="images/work/Dafedil Business Acadamy/dafedil/3.png" alt="slider-image"></div>
             </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+            </script> 
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js">
+            </script> 
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.thing').slick({
+                        dots: true,
+                        arrows: false,
+                        autoplay: true,
+                        autoplaySpeed: 1000
+                    });
+                });
+            </script>
         </section>
 
-        <!-- ==================== End Video-wrapper ==================== -->
+
+        <!------------------------- Card Slider ------------------------>
+
 
 
 
