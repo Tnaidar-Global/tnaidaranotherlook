@@ -16,6 +16,12 @@
     line-height: 26px;
 }
 
+.blogBody p br{
+  display: block;
+  margin: 10px 0;
+  content: " ";
+}
+
 .blogTitle{
     margin-top: 20px;
     font-size: 40px;
