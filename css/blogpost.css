@@ -63,6 +63,12 @@ ul{
     line-height: 26px;
 }
 
+.subList li br{
+  display: block;
+  margin: 10px 0;
+  content: " ";
+}
+
 .socialsideIcons{
     position: fixed;
     top: 50%;
