@@ -13,6 +13,7 @@
     margin-top: 15px;
     color: black;
     font-weight: 300;
+    line-height: 26px;
 }
 
 .blogTitle{
@@ -53,6 +54,7 @@ ul{
 .subList li{
     list-style-type: square;
     margin-left: 10px;
+    line-height: 26px;
 }
 
 .socialsideIcons{
