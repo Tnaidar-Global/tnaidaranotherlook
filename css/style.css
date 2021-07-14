@@ -2946,9 +2946,18 @@ body {
       margin-bottom: 20px; }
   .services .item {
     text-align: center;
-    padding: 60px;
+    border-top: 30px solid #151921;
+    border-bottom: 30px solid #151921;
+    border-left: 10px solid #151921;
+    border-right: 10px solid #151921;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: -20px;
+    padding-right: -20px;
+    margin: 10px;
     background: #151921;
-    position: relative; }
+    position: relative;
+   }
     .services .item .icon {
       color: #60D1E0;
       font-size: 40px;
