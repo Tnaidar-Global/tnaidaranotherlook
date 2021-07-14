@@ -2828,9 +2828,15 @@ body {
     padding: 80px 30px;
     text-align: center; }
     .services .item-box:nth-of-type(2) {
-      background: #181b21; }
+      background: #20242c; }
     .services .item-box:nth-of-type(3) {
-      background: #1a1e25; }
+      background: #20242c; }
+    .services .item-box:nth-of-type(4) {
+      background: #20242c; }
+    .services .item-box:nth-of-type(6) {
+      background: #20242c; }
+    .services .item-box:nth-of-type(7) {
+      background: #20242c; }
     .services .item-box:last-of-type {
       background: #20242c; }
     .services .item-box.bg-img {
