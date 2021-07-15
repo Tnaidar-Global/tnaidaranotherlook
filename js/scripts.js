@@ -460,7 +460,7 @@ $(function () {
             value: myVal,
             thickness: 2,
             size: 110,
-            fill: { color: "#60D1E0" }
+            fill: { color: "#E44B5D" }
         });
 
     });
