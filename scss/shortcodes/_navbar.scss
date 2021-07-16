@@ -51,8 +51,8 @@
         opacity: 0;
         visibility: hidden;
         border-radius: 0;
-        color: #fff;
-        background: #1a1e25;
+        color: #0c0f16;
+        background: #fff;
         min-width: 185px;
         transform: translateY(20px);
         transition: all .4s;
@@ -64,7 +64,7 @@
         }
     
         .dropdown-item{
-            color: #fff;
+            color: #0c0f16;
             transition: all .4s;
             padding: 10px 25px;
             position: relative;
@@ -141,17 +141,49 @@
 
     .logo{
         width: 50px;
-    }
+	}
+	
+	&.light{
+
+		.navbar-nav{
+  
+			.nav-link{
+				color: #0c0f16;
+			}
+		}
+	
+		.search{
+			color: #0c0f16;
+			border-color: #ccc;
+		}
+	}
 }
 
 .nav-scroll{
-    background: #11141b;
-    border-color: #181b21;
+    background: #fff;
+	border-color: transparent;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.05);
 	padding: 0;
 	position: fixed;
 	top: -80px;
 	transition: transform .5s;
 	transform: translateY(80px);
+
+	.navbar-nav{
+  
+		.nav-link{
+			color: #0c0f16;
+		}
+	}
+
+	.search{
+		color: #0c0f16;
+		border-color: #ccc;
+	}
+
+	.icon-bar{
+		color: #0c0f16;
+	}
 }
 
 

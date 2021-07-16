@@ -9,7 +9,7 @@
 
 		.filter{
 			padding: 15px;
-			background: rgba(255, 255, 255, 0.02);
+			background: rgba(0, 0, 0, 0.02);
 			border-radius: 30px;
 			display: inline-block;
 		}
@@ -136,6 +136,10 @@
 					padding-left: 30px;
 					opacity: 0;
 					transition: all .4s;
+
+					h6{
+						color: #fff;
+					}
 
 					span{
 						color: #eee;
@@ -338,7 +342,7 @@
 
 	.simp-next,
 	.simp-prev{
-		color: #fff;
+		color: #0c0f16;
 		top: auto;
 		bottom: 0;
 
@@ -401,7 +405,7 @@
 				height: 35px;
 				line-height: 35px;
 				text-align: center;
-				background: rgba(255,255,255,.03);
+				background: rgba(0,0,0,.03);
 				border-radius: 50%;
 				font-size: 12px;
 				position: absolute;
@@ -411,7 +415,7 @@
 		}
 
 		.bgbox{
-			background: #13161d;
+			background: #efefef;
 			padding: 20px 20px 20px 30px;
 			border-radius: 0 0 10px 10px;
 		}
@@ -475,7 +479,7 @@
 	}
 
 	&.not-sub{
-		background: #141A33;
+		background: #0c0f16;
 	}
 }
 

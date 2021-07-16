@@ -26,7 +26,7 @@
 			text-transform: uppercase;
 			margin-bottom: 20px;
 			-webkit-text-stroke-width: 1px;
-			-webkit-text-stroke-color: #fff;
+			-webkit-text-stroke-color: #0c0f16;
 			color: transparent;
 			
 			span{
@@ -36,7 +36,7 @@
 			b{
 				
 				span{
-					color: #fff;
+					color: #0c0f16;
 					-webkit-text-stroke-width: 0;
 				}
 			}
@@ -61,14 +61,14 @@
 		&:hover{
 
 			span{
-				color: #141A33;
+				color: #0c0f16;
 			}
 		}
 	}
 
 	.tlink{
 		margin-left: auto;
-		border-bottom: 1px solid #eee;
+		border-bottom: 1px solid #0c0f16;
 	}
 
 	&.next{

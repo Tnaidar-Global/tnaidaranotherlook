@@ -24,7 +24,7 @@
 		.cont{
 			width: 50%;
 			padding: 10px 30px;
-			background: #151921;
+			background: #fff;
 
 			.info{
 				margin-bottom: 30px;
@@ -71,21 +71,21 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: #13161d;
+			background: #fff;
 			transition: all .4s;
 		}
 
 		&.active{
 
 			&:after{
-				opacity: .85;
+				opacity: .8;
 			}
 		}
 
 		&:hover{
 
 			&:after{
-				opacity: .7;
+				opacity: .6;
 			}
 		}
 
@@ -134,7 +134,7 @@
 			}
 
 			.cont{
-				background: #13161d;
+				background: #fff;
 				padding: 30px;
 				position: relative;
 
@@ -177,24 +177,51 @@
 
 			.img{
 				position: relative;
+
+				.info{
+					position: absolute;
+					right: 0;
+					top: 0;
+					padding: 15px;
+					background: #fff;
+
+					.date{
+						text-align: center;
+						color: $main-color;
+
+						.num{
+							display: block;
+							font-size: 30px;
+							font-weight: 700;
+							margin-bottom: 10px;
+							padding-bottom: 10px;
+							position: relative;
+
+							&:after{
+								content: '';
+								width: 30px;
+								height: 1px;
+								background: #eee;
+								position: absolute;
+								bottom: 0;
+								left: calc(50% - 15px);
+							}
+						}
+
+						h5{
+							font-size: 14px;
+							text-transform: uppercase;
+							letter-spacing: 2px;
+						}
+					}
+				}
 			}
 
 			.content{
 				padding-top: 25px;
 
-				.date{
-					margin-right: 15px;
-					text-transform: uppercase;
-					font-size: 12px;
-
-					.num{
-						font-size: 12px;
-					}
-				}
-
 				.tags{
 					margin-bottom: 10px;
-					display: inline-block;
 
 					a{
 						font-size: 12px;
@@ -206,7 +233,7 @@
 						&:after{
 							content: '';
 							width: 8px;
-							height: 1px;
+							height: 2px;
 							background: #eee;
 							position: absolute;
 							right: 4px;
@@ -224,8 +251,39 @@
 				}
 
 				h4{
+					font-weight: 700;
 					line-height: 1.6;
 					margin-bottom: 5px;
+				}
+
+				.more{
+					margin-top: 20px;
+					font-size: 12px;
+					font-weight: 500;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					padding-left: 60px;
+					position: relative;
+					transition: all .5s;
+
+					&:after{
+						content: '';
+						width: 50px;
+						height: 1px;
+						background: #090909;
+						position: absolute;
+						left: 0px;
+						top: 50%;
+						transition: all .5s;
+					}
+
+					&:hover{
+						padding-left: 40px;
+
+						&:after{
+							width: 30px;
+						}
+					}
 				}
 			}
 		}
@@ -262,6 +320,23 @@
 
 		.post{
 
+			.title-head{
+				text-align: center;
+				margin-bottom: 50px;
+
+				h2{
+					margin-bottom: 10px;
+				}
+
+				a{
+					font-size: 12px;
+					font-weight: 500;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					margin: 0 10px;
+				}
+			}
+
 			.main-img{
 				
 				.simpleParallax{
@@ -280,6 +355,7 @@
 			.content{
 
 				p{
+					color: #555;
 					font-size: 16px;
 					font-family: inherit;
 					margin: 30px 0;
@@ -299,11 +375,12 @@
 				}
 
 				.quotes{
-					background: #151921;
+					background: #fafafa;
 					padding: 30px;
 					margin: 30px 0;
 					
 					p{
+						color: #111;
 						font-size: 18px;
 						font-style: italic;
 					}
@@ -312,6 +389,7 @@
 				.spacial{
 
 					p{
+						color: #111;
 						font-size: 18px;
 						font-weight: 500;
 					}
@@ -345,7 +423,7 @@
 			.author{
 				padding: 30px;
 				margin-top: 40px;
-				background: #151921;
+				background: #fafafa;
 				
 				.author-img{
 					display: table-cell;
@@ -362,6 +440,7 @@
 						font-size: 15px;
 
 						span{
+							font-weight: 700;
 							text-transform: uppercase;
 							margin-right: 10px;
 						}
@@ -386,15 +465,15 @@
 
 		.pagination{
 			margin-top: 80px;
-			border-top: 1px solid rgba(255,255,255,.1);
-			border-bottom: 1px solid rgba(255,255,255,.1);
+			border-top: 1px solid #eee;
+			border-bottom: 1px solid #eee;
 			display: flex;
 
 			span{
 				width: 100%;
 				padding: 20px;
-				border-right: 1px solid rgba(255,255,255,.1);
-				border-left: 1px solid rgba(255,255,255,.1);
+				border-right: 1px solid #eee;
+				border-left: 1px solid #eee;
 				text-transform: uppercase;
 				font-weight: 500;
 				font-size: 13px;
@@ -413,7 +492,7 @@
 			.item{
 				padding: 30px 0;
 				margin: 30px 0;
-				border-bottom: 1px solid rgba(255,255,255,.1);
+				border-bottom: 1px solid #eee;
 
 				&.relped{
 					margin-left: 100px;
@@ -471,10 +550,9 @@
 				margin-top: 50px;
 
 				input,textarea{
-					color: #fff;
 					width: 100%;
 					padding: 17px;
-					background: #13161d;
+					background: #fafafa;
 					border: 0;
 				}
 

@@ -15,15 +15,15 @@
 		text-align: center;
 
 		&:nth-of-type(2){
-			background: #181b21;
+			background: #f9fbfd;
 		}
 
 		&:nth-of-type(3){
-			background: #1a1e25;
+			background: #f2f3f5;
 		}
 
 		&:last-of-type{
-			background: #20242c;
+			background: #f9fbfd;
 		}
 
 		&.bg-img{
@@ -41,6 +41,10 @@
 				background: #1a1e25;
 				opacity: .8;
 				z-index: -1;
+			}
+
+			h4{
+				color: #fff;
 			}
 		}
 
@@ -84,7 +88,7 @@
 	.mas-item{
 		padding: 40px;
 		margin: 50px 0;
-		background: #11141b;
+		background: #f7f7f7;
 		position: relative;
 		z-index: 2;
 
@@ -95,7 +99,7 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: #11141b;
+			background: #f7f7f7;
 			transition: all .4s;
 			z-index: -1;
 		}
@@ -140,7 +144,7 @@
 			text-align: center;
 			font-size: 12px;
 			border-radius: 50%;
-			border: 2px solid rgba(255,255,255,.05);
+			border: 2px solid rgba(0,0,0,.1);
 		}
 	}
 
@@ -148,7 +152,7 @@
 		text-align: center;
 		padding: 60px;
 		margin: 60px auto;
-		background: #151921;
+		background: #efefef;
 		position: relative;
 
 		&.xbottom{
@@ -186,7 +190,7 @@
 	.item{
 		text-align: center;
 		padding: 60px;
-		background: #151921;
+		background: #efefef;
 		position: relative;
 
 		.icon{
@@ -216,7 +220,7 @@
 			right: 120px;
 			bottom: 0;
 			left: -300px;
-			background: #1a1e25;
+			background: #efefef;
 			z-index: -1;
 		}
 	}

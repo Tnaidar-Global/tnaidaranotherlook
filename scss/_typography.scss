@@ -11,12 +11,16 @@
 }
 
 body {
-  color: #fff;
-  background: #141A33;
+  color: #0c0f16;
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
   font-family: 'Poppins', sans-serif;
+
+  &.bd-dark{
+    color: #fff;
+    background: #0c0f16;
+  }
 }
 
 img {
