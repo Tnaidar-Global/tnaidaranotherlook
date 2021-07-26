@@ -1299,11 +1299,11 @@ body {
   z-index: 999;
   min-height: 80px; }
   .navbar .icon-bar {
-    color: #fff; }
+    color: #141A33; }
   .navbar .navbar-nav .nav-link {
     font-size: 12px;
     font-weight: 500;
-    color: #fff;
+    color: #141A33;
     padding: 15px 7px;
     margin: 10px 15px; }
   .navbar .navbar-nav .dropdown-menu {
@@ -1323,8 +1323,8 @@ body {
     opacity: 0;
     visibility: hidden;
     border-radius: 0;
-    color: #0c0f16;
-    background: #fff;
+    color: #fff;
+    background: #141A33;
     min-width: 185px;
     -webkit-transform: translateY(20px);
     -ms-transform: translateY(20px);
@@ -1339,7 +1339,7 @@ body {
       -ms-transform: translateY(0);
       transform: translateY(0); }
     .navbar .dropdown-menu .dropdown-item {
-      color: #0c0f16;
+      color: #fff;
       -webkit-transition: all .4s;
       -o-transition: all .4s;
       transition: all .4s;
@@ -1361,7 +1361,7 @@ body {
         .navbar .dropdown-menu .dropdown-item:hover:after {
           width: 10px; }
   .navbar .search {
-    color: #fff;
+    color: #141A33;
     padding-left: 30px;
     border-left: 1px solid rgba(255, 255, 255, 0.1); }
     .navbar .search .icon {
@@ -1385,7 +1385,7 @@ body {
         .navbar .search .search-form form input {
           padding: 15px 0;
           font-size: 80px;
-          color: #fff;
+          color: #141A33;
           text-transform: uppercase;
           text-align: left;
           background: transparent;
@@ -1395,20 +1395,20 @@ body {
         position: absolute;
         top: 20%;
         right: 20%;
-        color: #fff;
+        color: #141A33;
         font-size: 60px;
         opacity: 1;
         cursor: pointer; }
   .navbar .logo {
     width: 50px; }
   .navbar.light .navbar-nav .nav-link {
-    color: #0c0f16; }
+    color: #fff; }
   .navbar.light .search {
-    color: #0c0f16;
+    color: #fff;
     border-color: #ccc; }
 
 .nav-scroll {
-  background: #fff;
+  background: #141A33;
   border-color: transparent;
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
@@ -1424,7 +1424,7 @@ body {
   -ms-transform: translateY(80px);
   transform: translateY(80px); }
   .nav-scroll .navbar-nav .nav-link {
-    color: #0c0f16; }
+    color: #fff; }
   .nav-scroll .search {
     color: #0c0f16;
     border-color: #ccc; }
@@ -1504,12 +1504,12 @@ body {
         display: block;
         width: 20px;
         height: 3px;
-        background: #fff;
+        background: #141A33;
         margin: 4px 0; }
   .topnav.dark .menu-icon {
-    color: #000; }
+    color: #fff; }
     .topnav.dark .menu-icon .icon i {
-      background: #000; }
+      background: #fff; }
   .topnav.dark.navlit .menu-icon {
     color: #fff; }
     .topnav.dark.navlit .menu-icon .icon i {
