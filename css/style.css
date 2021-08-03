@@ -1246,7 +1246,7 @@ body {
     .btn-curve.btn-color:after {
       background: #fff; }
     .btn-curve.btn-color span {
-      color: #0c0f16; }
+      color: #fff; }
     .btn-curve.btn-color:hover span {
       color: #E44B5D; }
   .btn-curve.btn-lg {
@@ -1361,7 +1361,7 @@ body {
         .navbar .dropdown-menu .dropdown-item:hover:after {
           width: 10px; }
   .navbar .search {
-    color: #141A33;
+    color: #fff;
     padding-left: 30px;
     border-left: 1px solid rgba(255, 255, 255, 0.1); }
     .navbar .search .icon {
@@ -1426,10 +1426,10 @@ body {
   .nav-scroll .navbar-nav .nav-link {
     color: #fff; }
   .nav-scroll .search {
-    color: #0c0f16;
+    color: #fff;
     border-color: #ccc; }
   .nav-scroll .icon-bar {
-    color: #0c0f16; }
+    color: #fff; }
 
 .topnav {
   position: fixed;
